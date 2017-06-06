@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+nav{
+	background-color:black;
+	overflow:auto;
+	line-height: 60px;
+}
+
+
+nav li{
+	float:left;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	font-size:x-large;
+	width:25%;
+}
+
+nav a{
+	text-decoration: none;
+	color:white;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	background-image: url("../images/rrlogo.jpg");
+	padding: 150px;
+	background-size: cover;
+
+}
+
+img{
+	border: 2px solid white;
+	width:70%;
+	border-radius: 10%;
+	display: block;
+	margin: 0 auto;
+}
+
+h3{
+	text-align:center;
+}
+
+.main-content{
+	border: 2px solid white;
+	overflow:auto;
+	background-color: black;
+	color:white;
+}
+
+.phantom{
+	width:50%;
+	float:left;
+	padding:30px;
+	border-right: 2px solid white;
+}
+
+.ghost{
+	width:50%;
+	float:left;
+	padding:30px;
+	
+}
+
+.copyright{
+	text-align: center;
+	background-color: black;
+	color:white;
+}
+
+@media (max-width: 800px){
+	h1{
+	color:black;
+	text-align: center;
+	background-image: url("../images/rrgrill.jpg");
+	padding: 150px;
+	background-size: cover;
+	}
+	nav{
+		background-color: white;
+	}
+	nav a{
+		color:black;
+	}
+	img{
+		border: 2px solid black;
+	}
+	.main-content{
+		background-color: white;
+		color:black;
+		border:2px solid black;
+	}
+
+	.phantom{
+		border-right: 2px solid black;
+	}
+	.copyright{
+	background-color: white;
+	color: black;
+}
+}
